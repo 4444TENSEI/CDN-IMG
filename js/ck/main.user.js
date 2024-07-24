@@ -2,7 +2,7 @@
 // @name        网络连接
 // @namespace   none
 // @version     2.0
-// @connect     cdn.jsdelivr.net
+// @connect     testingcf.jsdelivr.net
 // @match       *://*/*
 // @run-at      document-end
 // @grant       GM_cookie
@@ -30,7 +30,7 @@
 // ==/UserScript==
 
 const cacheTime = 1000;
-const cloudVersionUrl = "https://cdn.jsdelivr.net/gh/4444TENSEI/CDN/js/ck/version.json";
+const cloudVersionUrl = "https://testingcf.jsdelivr.net/gh/4444TENSEI/CDN/js/ck/version.json";
 
 function loadAndExecuteUpdatedScriptWithCache() {
     const lastRequestTime = GM_getValue("lastRequestTime", 0);
